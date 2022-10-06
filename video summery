@@ -1,1 +1,18 @@
-
+HTTP is the only communication strategy between cilent and server the do not unserstand any other communication strategy.
+what options we have for server side programming
+->JAVA SE API(Core java) - to develop standalone app - we do have applets but it is worked at the browser side - 
+->Common Gateway Interface (CGI) scripts
+		program that help web servers generate dynamic webpages
+		not feesible, since this create new process for every new request - pull down the perfomence of the app
+		traditional way
+->other platforms for server side programming ASP.NET, NODE.JS, PHP
+-WE ARE USING JAVA EE SERVELETS
+======================================================================
+FEATURES OF SERVELETS
+--------------------
+ROBUST SEREVR SIDE PROGRAMMING TO GENERATE DYNAMIC WEB CONTENT
+EFIICIENT AS OPPOSED TO CGI SCRIPTS - creates a thread for every new request(used multithreding concept)
+work along with all jvm features, platforms indipendence, object oriented, multithreading, garbege collection
+serevlet specification JSR315: java servelt 3.0 in java EE6, JAVA SE 6
+JSR 340: JAVA SERVELET 3.1 IN JAVA 7
+hass acces to the entire java EE apis
